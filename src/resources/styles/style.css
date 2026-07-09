@@ -1,0 +1,55 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f6f9;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    -fx-background-color: #1e2a38;
+    -fx-padding: 15;
+    -fx-spacing: 10;
+}
+
+.sidebar-button {
+    -fx-background-color: #2f3e50;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-background-radius: 8;
+    -fx-padding: 10 15;
+}
+
+.sidebar-button:hover {
+    -fx-background-color: #3f556e;
+    -fx-cursor: hand;
+}
+
+/* ================= TOP BAR ================= */
+.topbar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-border-color: #dcdcdc;
+}
+
+/* ================= BUTTONS ================= */
+.button {
+    -fx-background-color: #1976d2;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+}
+
+.button:hover {
+    -fx-background-color: #125aa0;
+    -fx-cursor: hand;
+}
+
+/* ================= LABELS ================= */
+.label {
+    -fx-font-size: 13px;
+}
+
+/* ================= TEXT FIELDS ================= */
+.text-field, .password-field, .combo-box {
+    -fx-background-radius: 6;
+    -fx-padding: 6;
+}

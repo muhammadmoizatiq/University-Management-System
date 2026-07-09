@@ -1,0 +1,17 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Compiled output
+out/
+*.class
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
