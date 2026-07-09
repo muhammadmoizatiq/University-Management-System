@@ -161,17 +161,15 @@ Screenshots will be added soon.
 
 ---
 
-## 👨‍💻 Author
+## 👥 Team
 
-**Muhammad Moiz Attique**
+This project was developed collaboratively by:
 
-BS Computer Science  
-COMSATS University Islamabad, Wah Campus
+- **Muhammad Moiz Attique**
+- **Muhammad Abdul Rehman**
+- **Muhammad Qasim**
 
-GitHub:
-https://github.com/muhammadmoizatiq
-
----
+Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Attique's GitHub account and shared with the project team.
 
 ## ⭐ Support
 
