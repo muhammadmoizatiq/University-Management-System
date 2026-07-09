@@ -163,7 +163,7 @@ This project was developed collaboratively by:
 - **Muhammad Abdul Rehman Saeed**
 - **Muhammad Qasim**
 
-Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Attiq's GitHub account and shared with the project team.
+Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Atiq's GitHub account and shared with the project team.
 
 ## ⭐ Support
 
