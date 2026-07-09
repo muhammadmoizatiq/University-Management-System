@@ -155,21 +155,15 @@ This project demonstrates the practical use of:
 
 ---
 
-## 📸 Screenshots
-
-Screenshots will be added soon.
-
----
-
 ## 👥 Team
 
 This project was developed collaboratively by:
 
-- **Muhammad Moiz Attique**
-- **Muhammad Abdul Rehman**
+- **Muhammad Moiz Atiq**
+- **Muhammad Abdul Rehman Saeed**
 - **Muhammad Qasim**
 
-Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Attique's GitHub account and shared with the project team.
+Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Attiq's GitHub account and shared with the project team.
 
 ## ⭐ Support
 
