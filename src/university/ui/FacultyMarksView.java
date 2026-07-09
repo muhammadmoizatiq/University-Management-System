@@ -49,7 +49,7 @@ public class FacultyMarksView {
         Label msg = new Label();
         msg.setStyle("-fx-font-weight: bold;");
 
-        // ================= LOAD STUDENTS OF SELECTED COURSE =================
+        // LOAD STUDENTS OF SELECTED COURSE
         courseBox.setOnAction(e -> {
             Course c = courseBox.getValue();
             if (c != null) {
@@ -61,7 +61,7 @@ public class FacultyMarksView {
             }
         });
 
-        // ================= PRE-POPULATE MARKS ON STUDENT SELECT =================
+        // PRE-POPULATE MARKS ON STUDENT SELECT
         studentBox.setOnAction(e -> {
             Course c = courseBox.getValue();
             Student s = studentBox.getValue();

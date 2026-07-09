@@ -19,21 +19,21 @@ public class CourseEnrollmentView {
         Label title = new Label("ENROLL IN NEW COURSE");
         title.setStyle("-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #333;");
 
-        // ================= COURSE LIST =================
+        //COURSE LIST
         ComboBox<Course> courseBox = new ComboBox<>();
         courseBox.setItems(FXCollections.observableArrayList(UniversityData.courses));
         courseBox.setPromptText("Select Course to Enroll");
         courseBox.setMaxWidth(Double.MAX_VALUE);
         courseBox.setStyle("-fx-background-radius: 6; -fx-padding: 4;");
 
-        // ================= INFO AREA =================
+        // INFO AREA
         Label info = new Label("Select a course to view details");
         info.setWrapText(true);
         info.setStyle("-fx-text-fill: #555; -fx-font-size: 13px; -fx-background-color: #fafafa; -fx-padding: 10; -fx-border-color: #e0e0e0; -fx-border-radius: 5; -fx-background-radius: 5;");
         info.setMinHeight(100);
         info.setMaxWidth(Double.MAX_VALUE);
 
-        // ================= BUTTON =================
+        // BUTTON
         Button enrollBtn = new Button("Enroll Course");
         enrollBtn.setMaxWidth(Double.MAX_VALUE);
         enrollBtn.setStyle("-fx-background-color: #2d6cdf; -fx-text-fill: white; -fx-font-weight: bold; -fx-padding: 10; -fx-background-radius: 6;");
@@ -41,7 +41,7 @@ public class CourseEnrollmentView {
         Label message = new Label();
         message.setStyle("-fx-font-weight: bold;");
 
-        // ================= SHOW COURSE INFO =================
+        //  SHOW COURSE INFO
         courseBox.setOnAction(e -> {
             Course c = courseBox.getValue();
             if (c != null) {
@@ -58,7 +58,7 @@ public class CourseEnrollmentView {
             }
         });
 
-        // ================= ENROLL LOGIC =================
+        // ENROLL LOGIC
         enrollBtn.setOnAction(e -> {
             Course selected = courseBox.getValue();
 
@@ -89,7 +89,7 @@ public class CourseEnrollmentView {
             }
         });
 
-        // ================= LAYOUT =================
+        // LAYOUT
         VBox box = new VBox(12,
                 title,
                 courseBox,

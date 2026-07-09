@@ -13,7 +13,7 @@ public class FileManager {
     private static final String CLASSROOM_FILE = "classrooms.dat";
     private static final String DEPT_FILE = "departments.dat";
 
-    // ================= SAVE =================
+    // SAVE
     private static void save(Object data, String fileName) {
         try (ObjectOutputStream out =
                      new ObjectOutputStream(new FileOutputStream(fileName))) {
@@ -23,7 +23,7 @@ public class FileManager {
         }
     }
 
-    // ================= LOAD =================
+    // LOAD
     private static Object load(String fileName) {
         try (ObjectInputStream in =
                      new ObjectInputStream(new FileInputStream(fileName))) {
@@ -33,7 +33,7 @@ public class FileManager {
         }
     }
 
-    // ================= USERS =================
+    // USERS
     public static List<User> loadUsers() {
         List<User> list = (List<User>) load(USER_FILE);
         return (list != null) ? list : new ArrayList<>();
@@ -43,7 +43,7 @@ public class FileManager {
         save(users, USER_FILE);
     }
 
-    // ================= STUDENTS =================
+    // STUDENTS
     public static List<Student> loadStudents() {
         List<Student> list = (List<Student>) load(STUDENT_FILE);
         return (list != null) ? list : new ArrayList<>();
@@ -53,7 +53,7 @@ public class FileManager {
         save(students, STUDENT_FILE);
     }
 
-    // ================= FACULTY =================
+    //  FACULTY
     public static List<Faculty> loadFaculty() {
         List<Faculty> list = (List<Faculty>) load(FACULTY_FILE);
         return (list != null) ? list : new ArrayList<>();
@@ -63,7 +63,7 @@ public class FileManager {
         save(faculty, FACULTY_FILE);
     }
 
-    // ================= COURSES =================
+    // COURSES
     public static List<Course> loadCourses() {
         List<Course> list = (List<Course>) load(COURSE_FILE);
         return (list != null) ? list : new ArrayList<>();
@@ -73,7 +73,7 @@ public class FileManager {
         save(courses, COURSE_FILE);
     }
 
-    // ================= CLASSROOMS =================
+    //  CLASSROOMS
     public static List<ClassRoom> loadClassrooms() {
         List<ClassRoom> list = (List<ClassRoom>) load(CLASSROOM_FILE);
         return (list != null) ? list : new ArrayList<>();
@@ -83,7 +83,7 @@ public class FileManager {
         save(classrooms, CLASSROOM_FILE);
     }
 
-    // ================= DEPARTMENTS =================
+    // DEPARTMENTS
     public static List<Department> loadDepartments() {
         List<Department> list = (List<Department>) load(DEPT_FILE);
         return (list != null) ? list : new ArrayList<>();

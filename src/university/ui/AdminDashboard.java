@@ -29,7 +29,7 @@ public class AdminDashboard {
 
         StackPane content = new StackPane();
 
-        // ================= STUDENTS =================
+        // STUDENTS
         students.setOnAction(e -> {
             VBox box = new VBox(10);
             box.setPadding(new Insets(20));

@@ -32,7 +32,7 @@ public class StudentDashboard {
 
         StackPane content = new StackPane();
 
-        // ================= PROFILE =================
+        // PROFILE
         profile.setOnAction(e -> {
 
             VBox box = new VBox(15);
@@ -90,7 +90,7 @@ public class StudentDashboard {
             content.getChildren().setAll(box);
         });
 
-        // ================= COURSES =================
+        //COURSES
         courses.setOnAction(e -> {
 
             HBox layout = new HBox(20);
@@ -153,7 +153,7 @@ public class StudentDashboard {
             content.getChildren().setAll(layout);
         });
 
-        // ================= MARKS =================
+        //  MARKS
         marks.setOnAction(e -> {
 
             VBox box = new VBox(15);

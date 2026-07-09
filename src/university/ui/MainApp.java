@@ -14,7 +14,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) {
 
-//        // ================= LOAD ALL DATA FIRST =================
+//        //LOAD ALL DATA FIRST
         UniversityData.users = FileManager.loadUsers();
         UniversityData.students = FileManager.loadStudents();
         UniversityData.faculties = FileManager.loadFaculty();
@@ -22,7 +22,7 @@ public class MainApp extends Application {
         UniversityData.classrooms = FileManager.loadClassrooms();
         UniversityData.departments = FileManager.loadDepartments();
 
-        // ================= SAFE INITIALIZATION =================
+        // SAFE INITIALIZATION
         if (UniversityData.users == null) UniversityData.users = new ArrayList<>();
         if (UniversityData.students == null) UniversityData.students = new ArrayList<>();
         if (UniversityData.faculties == null) UniversityData.faculties = new ArrayList<>();
@@ -30,7 +30,7 @@ public class MainApp extends Application {
         if (UniversityData.classrooms == null) UniversityData.classrooms = new ArrayList<>();
         if (UniversityData.departments == null) UniversityData.departments = new ArrayList<>();
 
-        // ================= AUTO ADMIN ACCOUNT =================
+        // AUTO ADMIN ACCOUNT
         boolean adminExists = false;
 
         for (User u : UniversityData.users) {
@@ -50,12 +50,12 @@ public class MainApp extends Application {
 
         UniversityData.resolveReferences();
 
-        // ================= LOGIN VIEW =================
+        //LOGIN VIEW
         LoginView loginView = new LoginView(stage);
 
         Scene scene = new Scene(loginView.getView(), 1100, 700);
 
-        // ================= CSS (SAFE LOAD) =================
+        // CSS (SAFE LOAD)
         try {
             String css = Objects.requireNonNull(
                     getClass().getResource("/styles/style.css"),

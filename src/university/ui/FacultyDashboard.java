@@ -31,7 +31,7 @@ public class FacultyDashboard {
 
         StackPane content = new StackPane();
 
-        // ================= PROFILE =================
+        //PROFILE
         profileBtn.setOnAction(e -> {
 
             VBox box = new VBox(15);
