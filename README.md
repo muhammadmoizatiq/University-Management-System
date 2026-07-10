@@ -1,4 +1,4 @@
-# 🎓 University Management System
+#  University Management System
 
 A desktop-based **University Management System** developed using **Java** and **JavaFX**. The application provides dedicated portals for **Administrators, Faculty Members, and Students**, enabling efficient management of academic operations such as course administration, student enrollment, classroom assignments, and grading.
 
@@ -6,15 +6,15 @@ The system uses **Java Object Serialization** for local data persistence, storin
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔐 Authentication & User Management
+### Authentication & User Management
 - Role-based login system
 - Student and Faculty registration
 - Automatic creation of the default administrator account
 - Username validation and duplicate account prevention
 
-### 👨‍💼 Administrator Portal
+###  Administrator Portal
 - View all registered students
 - View all faculty members
 - Create and manage courses
@@ -22,14 +22,14 @@ The system uses **Java Object Serialization** for local data persistence, storin
 - Assign classrooms to courses
 - Monitor university records through a centralized dashboard
 
-### 🎓 Student Portal
+###  Student Portal
 - View personal profile
 - Browse available courses
 - Enroll in courses
 - View enrolled courses
 - Access academic marks and transcript
 
-### 👨‍🏫 Faculty Portal
+###  Faculty Portal
 - View assigned teaching schedule
 - View enrolled students for each course
 - Enter and update student marks
@@ -37,7 +37,7 @@ The system uses **Java Object Serialization** for local data persistence, storin
 
 ---
 
-## 👥 User Roles
+##  User Roles
 
 | Role | Capabilities |
 |------|--------------|
@@ -47,7 +47,7 @@ The system uses **Java Object Serialization** for local data persistence, storin
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java 21
 - JavaFX
@@ -57,7 +57,7 @@ The system uses **Java Object Serialization** for local data persistence, storin
 
 ---
 
-## 💾 Data Storage
+##  Data Storage
 
 The application stores data locally using serialized binary files.
 
@@ -66,12 +66,8 @@ The application stores data locally using serialized binary files.
 - `faculty.dat`
 - `courses.dat`
 - `classrooms.dat`
-
-No external database is required.
-
----
-
-## 📂 Project Structure
+  
+##  Project Structure
 
 ```
 src/
@@ -88,7 +84,7 @@ src/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -111,7 +107,7 @@ git clone https://github.com/muhammadmoizatiq/University-Management-System.git
 
 ---
 
-## 🔑 Default Administrator Login
+##  Default Administrator Login
 
 The system automatically creates an administrator account if no user database exists.
 
@@ -129,7 +125,7 @@ admin123
 
 ---
 
-## 🧠 Object-Oriented Programming Concepts
+##  Object-Oriented Programming Concepts
 
 This project demonstrates the practical use of:
 
@@ -143,10 +139,7 @@ This project demonstrates the practical use of:
 
 ---
 
-## 🔮 Future Improvements
-
-- Database integration (SQLite/PostgreSQL)
-- Password hashing (BCrypt)
+##  Future Improvements
 - CRUD operations for all entities
 - Classroom scheduling conflict detection
 - Capacity validation
@@ -155,7 +148,7 @@ This project demonstrates the practical use of:
 
 ---
 
-## 👥 Team
+##  Team
 
 This project was developed collaboratively by:
 
@@ -165,6 +158,6 @@ This project was developed collaboratively by:
 
 Each team member contributed to the design, development, testing, and implementation of the application. The repository is hosted on Muhammad Moiz Atiq's GitHub account and shared with the project team.
 
-## ⭐ Support
+##  Support
 
 If you found this project useful, consider giving the repository a ⭐.
